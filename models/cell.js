@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import AutoIncrementFactory from 'mongoose-sequence';
 
 // Establece la conexión a MongoDB
-const uri = 'mongodb://localhost:27017/Parking';
+const uri = 'mongodb+srv://julianrpm18:1234@cluster0.aquekrn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const connection = mongoose.createConnection(uri);
 
 const AutoIncrement = AutoIncrementFactory(connection);
